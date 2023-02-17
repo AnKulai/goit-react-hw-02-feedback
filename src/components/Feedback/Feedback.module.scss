@@ -16,7 +16,7 @@
   & > li:nth-of-type(1) > button {
     border: 2px solid gold;
     background: linear-gradient(45deg, gold 33%, green 66%, gold);
-    // -webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: green;
     display: table;
