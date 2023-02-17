@@ -32,7 +32,7 @@
   & > li:nth-of-type(2) > button {
     border: 2px solid gray;
     background: linear-gradient(45deg, gray 33%, black 66%, gray);
-    // -webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
     display: table;
@@ -49,7 +49,7 @@
     border: 2px solid red;
     border: 2px solid gray;
     background: linear-gradient(45deg, red 33%, tomato 66%, darkred);
-    // -webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: darkred;
     display: table;
