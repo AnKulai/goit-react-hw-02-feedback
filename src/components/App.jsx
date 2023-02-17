@@ -24,7 +24,7 @@ class App extends Component {
 
   onLeaveFeedback = ({ target }) => {
     const option = target.dataset.type;
-    // this.setState({ [option]: ++this.state[option] });
+    this.setState({ [option]: ++this.state[option] });
   };
 
   render() {
