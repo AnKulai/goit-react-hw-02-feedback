@@ -1,0 +1,65 @@
+.feedbackList {
+  display: flex;
+  gap: 15px;
+
+  & > li > button {
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 2px;
+    transition-property: box-shadow;
+    transition-duration: 0.2s;
+  }
+
+  & > li:nth-of-type(1) > button {
+    border: 2px solid gold;
+    background: linear-gradient(45deg, gold 33%, green 66%, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: green;
+    display: table;
+    &:active {
+      background: gold;
+      color: white;
+      -webkit-text-fill-color: white;
+    }
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+  & > li:nth-of-type(2) > button {
+    border: 2px solid gray;
+    background: linear-gradient(45deg, gray 33%, black 66%, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    display: table;
+    &:active {
+      background: gray;
+      color: white;
+      -webkit-text-fill-color: white;
+    }
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+  & > li:nth-of-type(3) > button {
+    border: 2px solid red;
+    border: 2px solid gray;
+    background: linear-gradient(45deg, red 33%, tomato 66%, darkred);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: darkred;
+    display: table;
+    &:active {
+      background: darkred;
+      color: white;
+      -webkit-text-fill-color: white;
+    }
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+}
